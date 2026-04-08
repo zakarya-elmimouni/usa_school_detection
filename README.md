@@ -7,7 +7,7 @@ This repository contains the codebase for the weakly supervised object detection
 ![Demo](output_motion1.gif)
 ## 🏗️ Pipeline Overview
 
-This project implements a robust two-step pipeline for building detection in satellite imagery, designed to scale from raw data to high-precision inference.
+This project implements a robust two-step pipeline for school detection in satellite imagery, designed to scale from raw data to high-precision inference.
 
 ---
 
@@ -21,9 +21,9 @@ This project implements a robust two-step pipeline for building detection in sat
 ### **Pipeline Stages**
 
 #### **Step 1: Label Generation (Automated Pre-labeling)**
-The first phase focuses on generating a massive dataset without manual intervention:
+The first phase focuses on generating a massive dataset without manual intervention (automaticcaly labeled dataset):
 * **Data Collection:** Acquisition of raw satellite tiles.
-* **Segmentation:** Automated mask generation to isolate structures.
+* **Segmentation:** Automated mask generation to isolate school structures.
 * **Bounding Box Generation:** Conversion of segmentation masks into object detection coordinates ($x, y, w, h$).
 * **Auto-Labeled Data:** Storage of the resulting dataset for large-scale training.
 
