@@ -4,6 +4,7 @@ This repository contains the codebase for the weakly supervised object detection
 ## Keywords
 
 School detection, Automatic labeling, Weakly supervised learning
+
 ---
 ## 🎥 Demo
 ![Demo](output_motion1.gif)
